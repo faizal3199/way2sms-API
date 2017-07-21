@@ -15,4 +15,4 @@ Written with help of SimpleTest PHP unit tester</br>
 ```
 </br>
 </br>
-[Link to SimpleTest PHP unit tester](http://www.simpletest.org)
+<a href='http://www.simpletest.org'>Link to SimpleTest PHP unit tester</a>
