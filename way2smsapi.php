@@ -38,12 +38,12 @@ class Way2SMSapi{
 		$token = explode("jsessionid=",$url);
 		$token = explode("?",$token[1]);
 		$token = $token[0];
-		echo $token."</br>";
+		//echo $token."</br>";
 
 		//site24.way2sms.com/smstoss.action?ssaction=ss&Token=<token>&mobile=<mobile>&message=<message>&msgLen=<length>
 		//Prepare for message
 		$msg_url = 'http://site21.way2sms.com/smstoss.action?ssaction=ss&Token='.urlencode($token).'&mobile='.urlencode($mobile).'&message='.urlencode($msg).'&msgLen='.urlencode($msgLen);
-		echo $msg_url;
+		//echo $msg_url;
 		$browser->get($msg_url);
 
 		return;
