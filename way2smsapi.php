@@ -28,7 +28,7 @@ class Way2SMSapi{
 		//echo $url;
 
 		//Check for succes full login
-		//if successfully logged in then redirected to mainaction page
+		//if successfully logged in then redirected to main.action page
 		if(stripos($url, "main.action")===False){
 			echo "Authentication Failed";
 			return;
