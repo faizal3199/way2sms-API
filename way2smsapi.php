@@ -8,15 +8,19 @@ class Way2SMSapi{
 
 		//validation
 		if(!is_numeric($mobile)){
-			echo "Invalid mobile number";
+			echo "Invalid mobile number.";
 			return;
 		}
 		else if(!is_numeric($username)){
-			echo "Bad username";
+			echo "Bad username.";
 			return;
 		}
 		else if($msgLen<0){
-			echo "Message Length exceed 140";
+			echo "Message Length exceed 140.";
+			return;
+		}
+		else if($msgLen==140){
+			echo "Message is empty.";
 			return;
 		}
 
