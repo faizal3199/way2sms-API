@@ -1,6 +1,4 @@
 <?php
-require_once('simpletest/browser.php');
-
 class Way2SMSapi{
 	private $ch;
 	private $token = "null";
