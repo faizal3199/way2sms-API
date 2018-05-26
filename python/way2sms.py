@@ -149,7 +149,7 @@ def arg_parser(args):
 
 	return parser.parse_args(args)
 
-if __name__ == '__main__':
+def main():
 	if len(sys.argv) <= 1:
 		username = input('Enter username: ')
 		password = getpass.getpass('Enter password: ')
@@ -182,3 +182,6 @@ if __name__ == '__main__':
 		msgTxt = results.text
 
 		way2smsObj.send_message(recipient,msgTxt)
+
+if __name__ == '__main__':
+	main()
