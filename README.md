@@ -1,6 +1,9 @@
-API For way2sms
+API For way2sms [deprecated]
 =====
-</br>
+
+**This project is not maintained anymore**
+
+
 An simple unofficial API written in PHP to send messages using service provided by way2sms.</br></br>
 
 **PHP-How to use?**
